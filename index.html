@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+<link rel="stylesheet" href="main.css">
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+<script src="main.js" defer></script>
+<title>The Fine Art of the Art Institute of Chicago</title>
+</head>
+<body>
+    <!-- First Painting -->
+    <section class="bg-dark text-light p-5">
+        <h1 class="p-5 text-center">A Fine Selection of Art Available at the Art Institute of Chicago</h1>
+        <div class="container">     
+            <img class="img-fluid w-50 d-none d-sm-block" src="static/Art1dagaFamily.jpg" alt="Daga Family Painting">
+            <div class="col-12 col-md-12"> 
+                <button class="btn btn-secondary" onclick="load_data1()">View Art Details</button>
+                <button class="btn btn-light" onclick="clear_data1()">Clear</button>
+                <section class="list-group art-info1">
+
+                </section>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Second Painting -->
+    <section class="p-5">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <img class="img-fluid w-50 d-none d-sm-block" src="static/Art2ear.jpg" alt="Ear">
+            </div>
+            <div class="col-12 col-md-12"> 
+            <button class="btn btn-secondary" onclick="load_data2()">View Art Details</button>
+            <button class="btn btn-light" onclick="clear_data2()">Clear</button>
+            <section class="list-group art-info2">
+
+            </section>
+            </div>
+        </div>
+    </section>
+
+    <!-- third painting -->
+    <section class="bg-dark p-5">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+            <img class="img-fluid w-50 d-none d-sm-block" src="static/Art3rodeoDrive.jpg" alt="Rodeo Drive">
+            </div>
+            <div class="col-12 col-md-12"> 
+            <button class="btn btn-secondary" onclick="load_data3()">View Art Details</button>
+            <button class="btn btn-light" onclick="clear_data3()">Clear</button>
+            <section class="list-group art-info3">
+                
+            </section>
+        </div>
+    </section>
+
+    <!-- fourth painting -->
+    <section class="p-5">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+            <img class="img-fluid w-50 d-none d-sm-block" src="static/Art4gestures.jpg" alt="Gestures">
+            </div>
+            <div class="col-12 col-md-12"> 
+            <button class="btn btn-secondary" onclick="load_data4()">View Art Details</button>
+            <button class="btn btn-light" onclick="clear_data4()">Clear</button>
+            <section class="list-group art-info4">
+            </section>
+        </div>
+    </section>
+
+    <!-- fifth painting -->
+    <section class="bg-dark p-5">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-between">
+                <img class="img-fluid w-50 d-none d-sm-block" src="static/Art5i-box.jpg" alt="I-Box">
+            </div>
+            <div class="col-12 col-md-12"> 
+            <button class="btn btn-secondary" onclick="load_data5()">View Art Details</button>
+            <button class="btn btn-light" onclick="clear_data5()">Clear</button>
+            <section class="list-group art-info5">
+            </section>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center position-relative p-5">
+        <div class="container">
+            <p class="lead">This website is for project purposes only. Photos of artwork provided by the Art Institute of Chicago.</p>
+        </div>
+    </footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.4/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
+</body>
+</html>
